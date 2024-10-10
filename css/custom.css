@@ -1,0 +1,494 @@
+#wrapper {
+	background: #1E727F;	
+}
+.nav > li.active {
+    background: #008480;
+}
+.navbar-default .nav > li > a:hover, .navbar-default .nav > li > a:focus {
+	background: #0C8884;
+}
+
+/*============================================== New CSS ===================================*/
+
+body{
+	background: url('../media/img/beautiful-mosque.jpg') left top, center center, center bottom;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	background-size:cover;
+	overflow:hidden;
+}
+.main_wrap{
+	width:100%;
+	float:left;
+	height:100%;
+}
+.login_container_outer {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+.login_container_block {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.login_container_inner {
+    display: inline-block;
+    height: auto;
+    width: 355px;
+	padding:22px 25px 15px;
+	background:#f3f3f4;
+	-webkit-border-radius:8px;
+	-moz-border-radius:8px;
+	border-radius:8px;
+	-webkit-box-shadow:0 5px 5px rgba(0,0,0,0.4);
+	-moz-box-shadow:0 5px 5px rgba(0,0,0,0.4);
+	box-shadow:0 5px 5px rgba(0,0,0,0.4);
+	box-sizing:border-box;
+}
+.login_header{
+	width:100%;
+	float:left;
+	height:auto;
+	text-align:center;
+	margin:0 0 6px;
+}
+
+.login_header h2{
+	margin-top: 10px;	
+}
+.login_header a{
+	font-family:Pacifico;
+	font-size:40px;
+	color:#be0578;
+	font-weight:normal;
+	text-decoration:none;
+}
+
+.login_body.login_form .text_box{
+	width:100%;
+	box-sizing:border-box;
+	font-size:14px;
+	color:#676a6c;
+}
+.login_body.login_form .form_field{
+	margin:0 0 7px;
+}
+.forget_container{
+	width:100%;
+	float:left;
+	height:auto;
+	text-align:center;
+	margin:10px 0 15px;
+}
+
+.login_form .submit{
+	font-family:OpenSansSemibold;
+	font-size:14px;
+	color:#fff;
+	-webkit-transition:all 0.2s ease-in-out;
+	-moz-transition:all 0.2s ease-in-out;
+	-o-transition:all 0.2s ease-in-out;
+	-ms-transition:all 0.2s ease-in-out;
+	transition:all 0.2s ease-in-out;
+}
+.login_body .submit:hover{
+	background:#a51970;
+} 
+.forget_container{
+	font-family:OpenSansRegular;
+	font-size:11px;
+	color:#4988be;
+}
+.forget_container a{
+	font-family:OpenSansRegular;
+	font-size:11px;
+	color:#4988be;
+}
+.copyright_text{
+	font-family:OpenSansRegular;
+	font-size:11px;
+	color:#676a6c;
+	text-align:center;
+	display:inline-block;
+}
+
+#forger_popup{
+	display:table;
+}
+#forger_popup .popup_content{
+	width:100%;
+	display:table-cell;
+	vertical-align:middle;
+	text-align:center;
+}
+.info_block{
+	width:100%;
+	float:left;
+	height:auto;
+	padding:0 13px;
+	box-sizing:border-box;
+	margin:0 0 8px;
+}
+.info_block p{
+	font-family:OpenSansRegular;
+	font-size:13px;
+	color:#6b6e70;
+	line-height:18px;
+	text-align:left;
+}
+
+.ui-autocomplete{
+	z-index:999;
+	border:1px solid #e5e6e7;
+}
+.ui-autocomplete li{
+	font-family:OpenSansRegular;
+	font-size:13px;
+	color:#676a6c;
+	padding:6px 10px!important;
+	border:none!important;
+	font-weight:normal!important;
+	margin:0!important;
+}
+.ui-autocomplete li:hover{
+	font-family:OpenSansRegular!important;
+	font-size:13px!important;
+	color:#fff!important;
+	background:#1ab394;
+	border:none;
+	padding:6px 10px!important;
+	font-weight:normal!important;
+	margin:0!important;
+}
+.header{
+	position:relative;
+	z-index:99;
+}
+
+.login_body .submit:hover{
+	background:#a51970;
+} 
+.popup_footer .submit:hover{
+	background:#777777;
+} 
+.popup_footer .delete:hover{
+	background:#a51970 !important;
+} 
+.popup_footer .delete{
+	background: #be1678 none repeat scroll 0 0;
+    border: 1px solid #e7eaec;
+    border-radius: 3px;
+    color: #ffffff;
+}
+.header_right a.logout:hover{
+	color:#a51970;
+}
+.popup_footer .cancel:hover{
+	background:#d2d2d2;
+} 
+
+.submit{
+	-webkit-appearance: none;
+}
+
+
+
+
+/*.login-bg:before {
+	content: url("../media/img/mosque-3.jpg");
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 1;
+	opacity: 0.6;
+	
+}*/
+.loginscreen.middle-box {
+	padding-top: 150px;
+	width: 360px;
+	z-index: 1001 !important;
+}
+.middle-box.text-center.loginscreen.animated.fadeInDown > div {
+    background: white none repeat scroll 0 0;
+    border-radius: 15px;
+    padding: 20px;
+}
+label {
+	font-weight: 600;	
+}
+.btn-primary {
+    background-color: #189FDE;
+    border-color: #28afee;
+    color: #ffffff;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+    background-color: #0E92D0;
+    border-color: #189FDE;
+    color: #ffffff;
+}
+.fa.fa-bars {
+    line-height: 1.4;
+}
+.skin-blue .wrapper, .skin-blue .main-sidebar, .skin-blue .left-side {
+    background-color: #1e727f;
+}
+
+.skin-blue .sidebar-menu > li:hover > a, .skin-blue .sidebar-menu > li.active > a {
+	background: #008480;	
+}
+
+.skin-blue .main-header .logo {
+    background-color: #1d667e;
+}
+
+.skin-blue .main-header .logo:hover {
+    background-color: #1C6D83;
+}
+.skin-blue .main-header .navbar {
+    background-color: #1e727f;
+}
+.navbar-custom-menu .btn {
+    padding: 12px;
+}
+.btn.btn-signout{
+    color: #FFFFFF;
+}
+.skin-blue .sidebar-menu > li > .treeview-menu {
+    background: #003330
+}
+.nav-second-level li a {
+	padding: 10px 5px 10px 30px;
+}
+
+.dropdown.profile-element img {
+    /*width: 150px;*/
+}
+a:focus{
+	outline: none;	
+}
+.nav.nav-second-level.collapse.in {
+    background: #0e626f;
+}
+.nav-second-level li a {
+    border-bottom: 1px dashed #888888;
+    padding: 10px 5px 10px 30px;
+}
+.nav-second-level li:last-child {
+    margin-bottom: 0px;
+}
+.fh-breadcrumb {
+    height: calc(100% - 160px);
+}
+.element-detail-box {
+    background: #f3f3f4;
+	padding: 0px 25px;
+}
+.footer {
+    background: #89c0bb;
+	color: #000000;
+}
+.cropper-container{
+	top: 0px !important;	
+}
+.breadcrumb.left {
+    float: left;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+.breadcrumb.right {
+    float: right;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+.error, .err_div {
+    border-radius: 5px;
+    /*color: #ffffff;
+	background: #df2e1c;
+    padding: 5px 10px;*/
+}
+.form-group.error_form {
+	margin-top: -10px !important;
+	margin-bottom: 0px;
+	
+}
+.err{
+	color: #df2e1c;
+}
+.col-sm-6 > img, .col-lg-6 > img {
+    max-height: 150px;
+    max-width: 150px;
+}
+.page-heading {
+	padding: 0 10px 10px;	
+}
+.table-bordered {
+	font-size: 12px;	
+}
+#myTable img {
+    width: 50px;
+}
+#myTable > tbody > tr > td {
+    vertical-align: middle !important;
+}
+
+.modal-body {
+    padding: 20px 0px;
+}
+@media screen and (min-width:980px) {
+.modal-customer .modal-dialog {
+    width: 800px;
+}
+}
+.shalah-module .datetimepicker{
+	width: 100%;	
+}
+.box-footer, .modal-footer {
+    clear: both;
+}
+#edit-modal .modal-content {
+    border-radius: 6px;
+}
+.user-img > img {
+    width: 130px;
+}
+.add-option {
+	float: right;	
+}
+.add-option .btn.btn-primary {
+	margin-top: -6px;
+    padding: 4px 14px;
+}
+
+.modal-footer > p {
+	float: left;
+	color: #df2e1c;
+}
+
+.file_upload{
+	width:100%;
+	float:left;
+	height:auto;
+	border:1px solid #e5e6e7;
+	padding:4px 12px;
+	background:#fff;
+	position:relative;
+}
+.file_upload .form-control{
+	border:none;
+	width:100%;
+	float:left;
+	position:relative;
+	z-index:9999;
+	cursor:pointer;
+	padding:0;
+}
+.file_upload .upload_button{
+	width:112px;
+	position:absolute;
+	top:4px;
+	richness:12px;
+	font-family:OpenSansRegular;
+	font-size:14px;
+	color:#fff;
+	background:#3498db;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	display:block;
+	line-height:34px;
+	border:none;
+	right:12px;
+}
+
+.file_upload .btn.btn-default {
+	font-family:OpenSansRegular;
+	font-size:14px;
+	color:#fff;
+    float: right;
+    height: 34px;
+    line-height: 34px;
+    margin: 0;
+    text-align: center;
+    width: 112px;
+	background:#3498db;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	cursor:pointer;
+	border:none;
+	padding:0;
+	outline:none;
+}
+.file_upload .form-control{
+	border:none;
+}
+.ibox-content.salah-box{
+	width: 100%;
+	float: left;	
+}
+.col-sm-9.input-group.date {
+    padding: 0 15px;
+}
+.timepicker-picker td {
+    padding: 0 !important;
+}
+.bootstrap-datetimepicker-widget a[data-action] {
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+}
+.bootstrap-datetimepicker-widget.dropdown-menu{
+	/*width: 160px !important;*/
+}
+.bootstrap-datetimepicker-widget table td{
+    height: 10px;
+    line-height: 10px;	
+	font-size: 12px;
+	width: 30px;
+}
+.bootstrap-datetimepicker-widget table td span{
+	height: 10px;
+    line-height: 10px;
+	margin: 1px;
+    width: 30px;
+}
+.col-sm-9.input-group.datetimepicker {
+    padding: 0 15px;
+}
+.modal-footer .btn {
+    margin-bottom: 0;
+}
+.nav-header {
+    background: #19aa8d;
+    padding: 18px 20px;
+}
+.row.wrapper.border-bottom.white-bg.page-heading {
+    border-bottom: 1px solid #4a95b8 !important;
+}
+.footable.table {
+    font-size: 12px;
+}
+.footable.breakpoint > tbody > tr > td > span.footable-toggle {
+	font-size: 12px;
+}
+
+.form-group > #img-preview {
+    max-height: 150px;
+    max-width: 150px;
+}
+
+.forget.flip {
+    color: #f00;
+    font-size: 12px;
+    padding: 0 !important;
+}
+.m-t {
+    margin-bottom: 5px;
+    padding-top: 10px;
+	margin-top: -3px;
+}

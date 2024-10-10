@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<url>
+	<exp>update/.*/.*</exp>
+	<perform>update/lmscms_module/lmscms_action</perform>
+</url>
+
+<url>
+	<exp>plist/.*/.*</exp>
+	<perform>plist/lmscms_module/lmscms_action</perform>
+</url>
+<url>
+	<exp>send/confirmationmial/.*/.*</exp>
+	<perform>send/confirmationmial/lmscms_module/lmscms_action</perform>
+</url>
+<url>
+	<exp>activation/.*/.*</exp>
+	<perform>activation/lmscms_module/lmscms_action</perform>
+</url>
+<url>
+	<exp>verify/.*/.*</exp>
+	<perform>verify/lmscms_module/lmscms_action</perform>
+</url>
+<url>
+	<exp>target/.*/.*</exp>
+	<perform>target/cms_module/cms_action</perform>
+</url>
+<url>
+	<exp>.*</exp>
+	<perform>lmscms_page</perform>
+</url>
