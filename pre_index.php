@@ -22,7 +22,7 @@ function getPath($target_path){
 	
 	return $target_path;
 }
-/*
+
 function unlockProjectFor ($host, $ip, $from, $to){
 	
 	$file_name = getConfigValue('module').'ProjectController/'.$host.'.txt';
@@ -54,8 +54,7 @@ function unlockProjectFor ($host, $ip, $from, $to){
 	}
 	
 }
-*/
-/*
+
 function unlockProject ($host, $ip, $from, $to){
 	
 	$file_name = getConfigValue('config').'key.txt';
@@ -87,7 +86,7 @@ function unlockProject ($host, $ip, $from, $to){
 	}
 	
 }
-*/
+
 function lockProject (){
 	
 	$file_name = getConfigValue('config').'key.txt';
